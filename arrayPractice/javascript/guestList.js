@@ -23,5 +23,6 @@ people.map((person) => {
   }
 });
 
-// console.log(admitted.textContent);
-// console.log(refused.textContent);
+refused.textContent = refused.textContent.slice(0, -2).concat(".");
+admitted.textContent = admitted.textContent.slice(0, -2).concat(".");
+console.log(refused.textContent);
